@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 3 - Pertemuan 3</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      #header {
+        background-color: red;
+        color: white;
+        font-size: 3em;
+        padding: 0.5em;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+      }
+
+      #sidebar {
+        background: yellow;
+        color: white;
+        flex: 1;
+        min-height: 100vh;
+      }
+
+      #content {
+        background: greenyellow;
+        color: black;
+        flex: 3;
+      }
+
+      #footer {
+        background: blue;
+        color: white;
+      }
+
+      .wrapper {
+        display: flex;
+        position: relative;
+        top: 6.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <b>PT ABCDEF</b>
+    </div>
+
+    <div class="wrapper">
+      <div id="sidebar">
+        <nav>
+          <ul>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+            <li><a href="#">Menu 4</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore est nihil dolor laborum quo nobis soluta, amet rerum fuga optio facilis quaerat praesentium unde asperiores commodi aliquid culpa totam maiores ipsa expedita tempora
+        incidunt! Saepe quia sequi nesciunt tempore perferendis eum sit voluptatem accusantium quis reprehenderit aut eaque, ipsa totam?
+      </div>
+    </div>
+
+    <div id="footer">&copy; Copyright 2023 PT ABCDEF. All Rights Reserved.</div>
+  </body>
+</html>
